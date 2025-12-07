@@ -2,7 +2,7 @@
 Dưới đây là quá trình làm với suy nghĩ của em, em vừa làm cũng có tìm hiểu thêm cả trên mạng và trò chơi này em cũng đã từng chơi rồi, em nêu cả cách triển khai nên có thể hơi dài, em cũng đánh số để có thể dễ theo dõi hơn. Em cảm ơn nhiều ạ  
 (Tóm tắt ngắn gọn em đã làm những gì: 
 - Có cơ chế chơi theo kiểu Water Sort Puzzle
-- Sử dụng các design pattern: Singleton, Command, State, Observer và dùng SCưcriptable Object
+- Sử dụng các design pattern: Singleton, Command, State, Observer và dùng Scriptable Object
 - Có thể gen màn theo độ khó
 - có dotween nhưng chỉ đơn giản ở phần nắp đóng)
 
