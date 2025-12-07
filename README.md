@@ -41,12 +41,12 @@ Giả sử đổ từ A -> B (stack)
 - Giả sử A có chứa Red, Blue, Blue thì đổ sang B, trong trường hợp còn đủ chỗ trống cho cả 2 thì phải đổ cả Blue, Blue; ngược lại nếu chỉ còn 1 thì đổ 1 Blue
 
 # Từ ý tưởng và rule đặt ra, triển khai:
-1. Xây dựng đối tượng
+## 1. Xây dựng đối tượng
 - TubeData bao gồm stack và depth (1 lọ chứa bao nhiêu màu) đại diện cho các lọ 
 - LevelData bao gồm danh sách các TubeData và số lượng các lọ có trong màn
 - enums ColorType đại diện cho nước
 
-2. Design Pattern
+## 2. Design Pattern
 - Xây dưng các state với State Pattern -> các state Play, Lose, Win có các hàm Enter() và Exit(), sau đó có thêm hàm CanHandleInput() trả về bool để trường hợp win hay lose không ấn vào lọ nữa
 - Command Pattern -> PourCommand (mỗi hành động đổ nước là 1 command) có Excute() để thực thi và Undo()
 - GameLogic (static class) -> triển khai các hàm core game (be) sử dụng xuyên suốt trò chơi:   
@@ -79,10 +79,10 @@ sửa lại sang trường hợp 2:
  + Revert() -> lùi lại 1 bước  
  + Pour(TubeDate from -> to, out poured) -> dùng vòng lặp while để đổ hết trên top stack màu cùng nhau sang stack khác (tất nhiên phải thỏa mãn CanPour()), con số poured ở đây là để lấy bao nhiêu màu giống nhau được chuyển đi -> được sử dụng để undo(): giả sử A{red, blue, blue}->B{blue} => poured = 2 thì khi undo từ B{blue, blue, blue} -> A{red} thì B pop() 2 lần là về ban đầu  
 
-3. Màu
+## 3. Màu
 - Tạo ScriptableObject ColorSpriteDB để làm database cho màu, chứ ColorEntry chứa ColorType và Sprite -> mapping màu với enums, nhưng không phải tạo từng màu từng enums, mà sprite dùng chung, trong game thay đổi thông qua color của sprite là được; đồng thời có hàm Get() để lấy màu theo enums
 
-4. Nhà máy xây dựnggggg
+## 4. Nhà máy xây dựnggggg
 - Ý tưởng ban đầu em định dùng Factory Pattern để có thể tạo nhiều màn với nhiều kiểu chơi khác nhau nhưng sau đó để phù hợp thời gian và còn thời gian ôn thi vào hôm 6/12 -> chuyển sang static class -> ý tưởng có hàm tạo các lọ với tham số truyền vào là LevelData sẽ dynamic hơn  
 - Nhưng còn 1 vấn đề ở đây là không chỉ be, cần fe với UI, câu hỏi là làm sao để có thể generate là số lọ mong muốn, các lọ cách đều, màu trong lọ thì trong hợp lí như trong game mà không phải cắt sprite ra
 -> ý tưởng tới từ Sprite Mask (https://www.youtube.com/watch?v=4pl8DcsCQ_k)   
@@ -129,7 +129,7 @@ Hạn chế việc đổ liên tiếp cùng một màu vào cùng một lọ qu�
 - Mức độ random đủ cao nhưng vẫn tuân thủ luật của game
 - Giảm tối đa trường hợp vừa vào level đã có những lọ hoàn chỉnh sẵn
 
-5. Triển khai Observer Pattern
+## 5. Triển khai Observer Pattern
 Để tránh việc GameManager hoặc GameLogic phụ thuộc trực tiếp vào các thành phần UI trong scene, sử dụng một lớp static GameEvents đóng vai trò như một event bus trung gian  
 - Các event chính trong hệ thống:  
 + OnPour: được gọi mỗi khi có hành động đổ màu giữa hai lọ 
@@ -159,7 +159,7 @@ Core gameplay (GameManager, GameLogic, Command) không phụ thuộc trực ti�
 UI có thể thay đổi, animate hoặc mở rộng hiệu ứng mà không cần chỉnh sửa logic gam  
 Gameplay logic dễ test và dễ bảo trì hơn vì không bị trộn lẫn với code hiển thị  
 
-6. Difficulty
+## 6. Difficulty
 - Để dễ mở rộng nhiều level/mode mà không phải hard-code từng layout, em thêm một lớp DifficultyConfig và dùng enum  
 public struct DifficultyConfig  
 {  
@@ -175,7 +175,7 @@ public struct DifficultyConfig
 - Giữ LevelGenerator độc lập
 - Dễ chỉnh số liệu difficulty mà không ảnh hưởng game core
 
-7. Luồng game tóm gọn
+## 7. Luồng game tóm gọn
 - Khi bắt đầu game:
 GameManager khởi tạo level mới thông qua LevelGenerator dựa trên độ khó đã chọn  
 LevelData được tạo ra, chứa danh sách TubeData (các lọ và màu tương ứng)  
