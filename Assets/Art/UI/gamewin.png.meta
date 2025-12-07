@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 2479a6e554f099c489b28e70963de115
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3613490073590288199
+    second: gamewin_0
+  - first:
+      213: 3196433645852125856
+    second: gamewin_1
+  - first:
+      213: 4954184750858080987
+    second: gamewin_2
+  - first:
+      213: -4562928818548276111
+    second: gamewin_3
+  - first:
+      213: -8963749183853352511
+    second: gamewin_4
+  - first:
+      213: -1508519986073661661
+    second: gamewin_5
+  - first:
+      213: 1929180766095337351
+    second: gamewin_6
+  - first:
+      213: -600398955157349279
+    second: gamewin_7
+  - first:
+      213: 3689001923949725534
+    second: gamewin_8
+  - first:
+      213: -4386192069034972975
+    second: gamewin_9
+  - first:
+      213: -3199825265717642451
+    second: gamewin_10
+  - first:
+      213: 3167833660117195311
+    second: gamewin_11
+  - first:
+      213: 7707482574742412305
+    second: gamewin_12
+  - first:
+      213: 5729435944391362458
+    second: gamewin_13
+  - first:
+      213: 8671405881881438352
+    second: gamewin_14
+  - first:
+      213: -3085430314087876202
+    second: gamewin_15
+  - first:
+      213: 2571715506993379233
+    second: gamewin_16
+  - first:
+      213: 2819280586512059183
+    second: gamewin_17
+  - first:
+      213: -6475471382559014558
+    second: gamewin_18
+  - first:
+      213: -4037231345331713779
+    second: gamewin_19
+  - first:
+      213: 4508320206582249268
+    second: gamewin_20
+  - first:
+      213: 1642966345895226887
+    second: gamewin_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gamewin_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1
+        width: 414
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b030445ced4addc0800000000000000
+      internalID: -3613490073590288199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 228
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa6f1927730c5c20800000000000000
+      internalID: 3196433645852125856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_2
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 246
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd29d8258ccc0c440800000000000000
+      internalID: 4954184750858080987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 249
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174890b3a683da0c0800000000000000
+      internalID: -4562928818548276111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 139
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c929b8fb9d5a9380800000000000000
+      internalID: -8963749183853352511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_5
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 139
+        width: 91
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f808da019a01be0800000000000000
+      internalID: -1508519986073661661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_6
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 139
+        width: 106
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787e0ae7fa3d5ca10800000000000000
+      internalID: 1929180766095337351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_7
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 139
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c9452d454faa7f0800000000000000
+      internalID: -600398955157349279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_8
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 171
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5781c464b7f13330800000000000000
+      internalID: 3689001923949725534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 116
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8e8806d8d1123c0800000000000000
+      internalID: -4386192069034972975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_10
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 9
+        width: 194
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b749dcfdfe793d0800000000000000
+      internalID: -3199825265717642451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_11
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 119
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a9fc21ee766fb20800000000000000
+      internalID: 3167833660117195311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 45
+        width: 101
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11cd804d09a76fa60800000000000000
+      internalID: 7707482574742412305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_13
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 17
+        width: 143
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a974dc4b2ab038f40800000000000000
+      internalID: 5729435944391362458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_14
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 115
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098a6ccd4b5075870800000000000000
+      internalID: 8671405881881438352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_15
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 40
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699f1950a795e25d0800000000000000
+      internalID: -3085430314087876202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_16
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 13
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a734b9c0a190b320800000000000000
+      internalID: 2571715506993379233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_17
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 17
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bc43991c8102720800000000000000
+      internalID: 2819280586512059183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_18
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 3
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261cc5906118226a0800000000000000
+      internalID: -6475471382559014558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_19
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 3
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d094e694b7fd8f7c0800000000000000
+      internalID: -4037231345331713779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_20
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 3
+        width: 73
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437fc0f7755c09e30800000000000000
+      internalID: 4508320206582249268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamewin_21
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 14
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ea101df2dfcc610800000000000000
+      internalID: 1642966345895226887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e8d8b71a3fbf2834a90cdd2600f596bf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gamewin_0: -3613490073590288199
+      gamewin_1: 3196433645852125856
+      gamewin_10: -3199825265717642451
+      gamewin_11: 3167833660117195311
+      gamewin_12: 7707482574742412305
+      gamewin_13: 5729435944391362458
+      gamewin_14: 8671405881881438352
+      gamewin_15: -3085430314087876202
+      gamewin_16: 2571715506993379233
+      gamewin_17: 2819280586512059183
+      gamewin_18: -6475471382559014558
+      gamewin_19: -4037231345331713779
+      gamewin_2: 4954184750858080987
+      gamewin_20: 4508320206582249268
+      gamewin_21: 1642966345895226887
+      gamewin_3: -4562928818548276111
+      gamewin_4: -8963749183853352511
+      gamewin_5: -1508519986073661661
+      gamewin_6: 1929180766095337351
+      gamewin_7: -600398955157349279
+      gamewin_8: 3689001923949725534
+      gamewin_9: -4386192069034972975
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
